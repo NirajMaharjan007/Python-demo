@@ -1,2 +1,2 @@
-#Python Class
+# Python Class
 Extra class of Python
