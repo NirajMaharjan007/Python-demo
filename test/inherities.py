@@ -24,3 +24,7 @@ dog = Dog("Doggy")
 
 dog.bark()
 dog.eat()
+
+cat = Cat("Catty")
+cat.meow()
+cat.walk()
