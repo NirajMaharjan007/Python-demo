@@ -10,3 +10,11 @@ li3 = li
 
 print(li2)
 print(li3)
+
+print(li.pop())
+
+name = "name"
+print(name[::-1])  # whole index with one gap with last
+
+li.reverse()
+print(li)

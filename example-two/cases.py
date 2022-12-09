@@ -7,5 +7,3 @@ print(name.casefold())
 print(name.lower())
 print(name.endswith("L"))
 print(name.endswith("l"))
-
-# german_word = ""
