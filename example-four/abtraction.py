@@ -1,3 +1,9 @@
+'''
+    __value => means private variable (double underscore)
+    _value => means protected variable (single underscore)
+'''
+
+
 class Computer():
     def __init__(self):
         # self.max_price = max_price
