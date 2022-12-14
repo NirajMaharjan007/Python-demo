@@ -1,4 +1,8 @@
 def largest(a, b, c):
+    '''
+        Parameter: three variable, (a,b,c)
+        Return: largest number
+    '''
     if (a > b) and (a > c):
         return str(a) + " is the largest"
 
@@ -13,6 +17,10 @@ def largest(a, b, c):
 
 
 def smallest(a, b, c):
+    '''
+        Parameter: three variable, (a,b,c)
+        Return: smallest number 
+    '''
     if (a < b) and (a < c):
         return str(a) + " is the smallest"
 
