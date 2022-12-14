@@ -1,2 +1,5 @@
 Hello, world!
 Hello from other side.
+Hello, Class!
+Hello, Class!
+Hello, Class!
