@@ -63,11 +63,22 @@ class A:
         '''
         exam = input("Checking for Exam... for " + self.name + ": ")
 
-        if exam == "exam":
-            print(self.name + " has forgotten a Python")
+        try:
+            if exam == "exam":
+                print(self.name + 3 + " has forgotten a Python")
 
-        else:
-            print(self.name + " has not forgotten a Python")
+        except Exception as e:
+            print(e)
+            # a = str(e)
+            # print(a)
+            file_write = open("docstring.txt", "a")
+            file_write.write(str(e))
+
+        finally:
+            file_write = open("docstring.txt", "a")
+            doc_string = "For class: " + object_one.__doc__ + \
+                "\nFor method: " + object_one.check_exam.__doc__
+            file_write.write(doc_string)
 
 
 # a = input("Enter a name: ")
@@ -76,17 +87,17 @@ class A:
 object_one = A("Niraj")
 object_two = A("Maharjan")
 
-# object_one.check_exam()
-# object_two.check_exam()
+object_one.check_exam()
+object_two.check_exam()
 
-print(object_one.__doc__)
-print(object_one.check_exam.__doc__)
+# print(object_one.__doc__)
+# print(object_one.check_exam.__doc__)
 
-# Here \ after object_one.__doc__ + means enter
-doc_string = "For class: " + object_one.__doc__ + \
-    "\nFor method: " + object_one.check_exam.__doc__
+# Here \ after object_one.__doc__ + means enter of a code
+# doc_string = "For class: " + object_one.__doc__ + \
+# "\nFor method: " + object_one.check_exam.__doc__
 
 # file_create = open("docstring.txt", "x")  # => new file created
 
-file_write = open("docstring.txt", "a")
-file_write.write(doc_string)
+# file_write = open("docstring.txt", "a")
+# file_write.write(doc_string)
