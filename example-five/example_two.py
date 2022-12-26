@@ -81,7 +81,7 @@ object_two = A("Maharjan")
 
 print(object_one.__doc__)
 print(object_one.check_exam.__doc__)
-``
+
 # Here \ after object_one.__doc__ + means enter
 doc_string = "For class: " + object_one.__doc__ + \
     "\nFor method: " + object_one.check_exam.__doc__
