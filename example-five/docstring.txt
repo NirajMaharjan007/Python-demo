@@ -1,3 +1,4 @@
+can only concatenate str (not "int") to str
 For class: 
         Class name A
         Parameter passed String variable "a"
@@ -31,6 +32,30 @@ For method:
             Check if variable 'a' has forgotten Python or not
             Parameter => no parameter 
             Return => void
+        can only concatenate str (not "int") to str
+For class: 
+        Class name A
+        Parameter passed String variable "a"
+        Methods:
+            check_exam()
+                Check if variable 'a' has forgotten Python or not
+    
+For method: 
+            Check if variable 'a' has forgotten Python or not
+            Parameter => no parameter 
+            Return => void
+        can only concatenate str (not "int") to str
+For class: 
+        Class name A
+        Parameter passed String variable "a"
+        Methods:
+            check_exam()
+                Check if variable 'a' has forgotten Python or not
+    
+For method: 
+            Check if variable 'a' has forgotten Python or not
+            Parameter => no parameter 
+            Return => void
         For class: 
         Class name A
         Parameter passed String variable "a"
@@ -42,18 +67,10 @@ For method:
             Check if variable 'a' has forgotten Python or not
             Parameter => no parameter 
             Return => void
-        can only concatenate str (not "int") to strFor class: 
-        Class name A
-        Parameter passed String variable "a"
-        Methods:
-            check_exam()
-                Check if variable 'a' has forgotten Python or not
-    
-For method: 
-            Check if variable 'a' has forgotten Python or not
-            Parameter => no parameter 
-            Return => void
-        For class: 
+        
+
+can only concatenate str (not "int") to str
+For class: 
         Class name A
         Parameter passed String variable "a"
         Methods:

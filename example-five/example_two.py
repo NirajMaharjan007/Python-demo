@@ -69,15 +69,13 @@ class A:
 
         except Exception as e:
             print(e)
-            # a = str(e)
-            # print(a)
-            file_write = open("docstring.txt", "a")
-            file_write.write(str(e))
+            file_write = open("example-five/docstring.txt", "a")
+            file_write.write("\n" + str(e) + "\n")
 
         finally:
-            file_write = open("docstring.txt", "a")
+            file_write = open("example-five/docstring.txt", "a")
             doc_string = "For class: " + object_one.__doc__ + \
-                "\nFor method: " + object_one.check_exam.__doc__
+                "\nFor method: " + object_one.check_exam.__doc__ + "\n"
             file_write.write(doc_string)
 
 
