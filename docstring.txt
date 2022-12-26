@@ -1,0 +1,29 @@
+
+        Class name A
+        Parameter passed String variable "a"
+        Methods:
+            check_exam()
+                Check if variable 'a' has forgotten Python or not
+    
+        Class name A
+        Parameter passed String variable "a"
+        Methods:
+            check_exam()
+                Check if variable 'a' has forgotten Python or not
+    
+
+            Check if variable 'a' has forgotten Python or not
+            Parameter => no parameter 
+            Return => void
+        For class: 
+        Class name A
+        Parameter passed String variable "a"
+        Methods:
+            check_exam()
+                Check if variable 'a' has forgotten Python or not
+    
+For method: 
+            Check if variable 'a' has forgotten Python or not
+            Parameter => no parameter 
+            Return => void
+        

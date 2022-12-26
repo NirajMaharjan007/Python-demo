@@ -52,8 +52,8 @@ class A:
                 Check if variable 'a' has forgotten Python or not
     '''
 
-    def __init__(self, a):
-        self.a = a
+    def __init__(self, name):
+        self.name = name
 
     def check_exam(self):
         '''
@@ -61,20 +61,32 @@ class A:
             Parameter => no parameter 
             Return => void
         '''
-        exam = input("Checking for Exam... for " + self.a + ": ")
+        exam = input("Checking for Exam... for " + self.name + ": ")
 
         if exam == "exam":
-            print(self.a + " has forgotten a Python")
+            print(self.name + " has forgotten a Python")
 
         else:
-            print(self.a + " has not forgotten a Python")
+            print(self.name + " has not forgotten a Python")
 
 
-a = input("Enter a name: ")
-b = input("Enter another name: ")
+# a = input("Enter a name: ")
+# b = input("Enter another name: ")
 
-object_one = A(a)
-object_two = A(b)
+object_one = A("Niraj")
+object_two = A("Maharjan")
 
-object_one.check_exam()
-object_two.check_exam()
+# object_one.check_exam()
+# object_two.check_exam()
+
+print(object_one.__doc__)
+print(object_one.check_exam.__doc__)
+
+# Here \ after object_one.__doc__ + means enter
+doc_string = "For class: " + object_one.__doc__ + \
+    "\nFor method: " + object_one.check_exam.__doc__
+
+# file_create = open("docstring.txt", "x")  # => new file created
+
+file_write = open("docstring.txt", "a")
+file_write.write(doc_string)
