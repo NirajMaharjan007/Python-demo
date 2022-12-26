@@ -1,4 +1,4 @@
-class Exam():
+class Exam:
     '''
         Class name is Exam
         init or Passing two variable 
@@ -21,7 +21,7 @@ class Exam():
         if exam_one == "exam":
             print(self.a + " has forgotten")
 
-        elif exam_two == "exam":
+        if exam_two == "exam":
             print(self.b + " has forgotten")
 
         if exam_one != "exam":
@@ -43,12 +43,13 @@ c.set_exam()
 # Another method
 
 
-class A():
+class A:
     def __init__(self, a):
         self.a = a
 
     def check_exam(self):
-        exam = input("Checking for Exam... for" + self.a + ": ")
+
+        exam = input("Checking for Exam... for " + self.a + ": ")
 
         if exam == "exam":
             print(self.a + " has forgotten a Python")
