@@ -88,3 +88,6 @@ data_frame.index = data_frame["Month"]
 print("\n******************************************************************")
 for i in range(len(data_frame)):
     print("\n", data_frame.iloc[i])
+
+print("\n\tDuplicate value\n******************************************************************\n")
+print(data_frame.duplicated())
