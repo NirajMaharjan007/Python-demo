@@ -7,7 +7,7 @@ arr_two = array([4, 4, 6, 7, 5, 4, 9])
 arr_three = array([7, 2, 0, 2, 8, 7, 0])
 arr_four = array([3, 4, 8, 8, 7, 9, 3])
 
-
+suptitle("Title")
 subplot(2, 2, 1)
 plot(arr_one, arr_two)
 
